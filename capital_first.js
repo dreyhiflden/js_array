@@ -1,6 +1,6 @@
 function capitalsFirst(str) {
-  let checkCase = char => char === char.toUpperCase() ? 1 : 2;
-  let regEx = /[a-z]/i;
+  const checkCase = char => char === char.toUpperCase() ? 1 : 2;
+  const regEx = /[a-z]/i;
 
   return str
     .split(' ')
