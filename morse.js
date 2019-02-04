@@ -33,7 +33,7 @@ let transformToMorse = (word) => {
     .reduce((acc, cur) => acc + object[cur], '');
 };
 
-let uniqueMorseRepresentations = function(words) {
+let uniqueMorseRepresentations = (words) => {
   let arr = [];
 
   for (let i = 0; i < words.length; i++) {
