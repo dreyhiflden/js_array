@@ -43,4 +43,4 @@ let uniqueMorseRepresentations = (words) => {
   return arr.filter((v, i) => arr.indexOf(v) === i).length;
 };
 
-console.log(uniqueMorseRepresentations(["gin", "zen", "gig", "msg"]));
+console.log(uniqueMorseRepresentations(['gin', 'zen', 'gig', 'msg']));
